@@ -44,11 +44,11 @@ public class PvC extends JFrame implements ActionListener {
     private String getComputerChoice() {
         int choice = (int) (Math.random() * 3) + 1;
         if (choice == 1) {
-            return "Rock";
+            return "Камень";
         } else if (choice == 2) {
-            return "Paper";
+            return "Бумага";
         } else {
-            return "Scissors";
+            return "Ножницы";
         }
     }
 
